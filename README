@@ -1,1 +1,3 @@
 sed -i 's/std_rel/your_rel_name/g' GNUmakefile rebar.config rel/reltool.config rel/files/*
+git mv rel/files/std_rel rel/files/your_rel_name
+git mv rel/files/std_rel.cmd rel/files/your_rel_name.cmd
